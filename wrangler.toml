@@ -1,0 +1,21 @@
+name = "fdlbot"
+compatibility_date = "2022-12-20"
+main = "./src/server.js"
+type = "javascript"
+
+account_id = "2c63d6315c708c3ce7d484b1aed09abd"
+workers_dev = true
+
+[[rules]]
+type = "ESModule"
+globs = [ "**/*.js" ]
+
+[env.dev]
+
+[env.production]
+
+# [secrets]
+# DISCORD_TOKEN
+# DISCORD_PUBLIC_KEY
+# APP_ID
+# GUILD_ID
