@@ -3,12 +3,26 @@
  * and registration.
  */
 
-export const AWW_COMMAND = {
-  name: 'awwww',
-  description: 'Drop some cuteness on this channel.',
-};
+export const SYNONYMOUS_COMMAND = {
+    name: 'synonyms',
+    description: 'A command to get synonyms of users messages',
+    options: [{
+        type: 3,
+        name: 'prompt',
+        description: 'Your prompt here',
+        required: true,
+    }],
+    type: 1,
+}
 
-export const INVITE_COMMAND = {
-  name: 'invite',
-  description: 'Get an invite link to add the bot to your server',
-};
+export const ANTONYMOUS_COMMAND = {
+    name: 'antonyms',
+    description: 'A command to get antonyms of users messages',
+    options: [{
+        type: 3,
+        name: 'prompt',
+        description: 'Your prompt here',
+        required: true,
+    }],
+    type: 1,
+}
