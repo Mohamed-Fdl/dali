@@ -2,7 +2,7 @@
 
 This project is about my discord bot I created to get antonyms and synonyms of words
 
-[Demo of app](https://discord.gg/dR63hjzX)
+[Demo of bot](https://discord.gg/dR63hjzX)
 
 
 ## Project structure
